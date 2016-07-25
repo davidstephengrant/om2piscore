@@ -3,6 +3,8 @@
 om2piscore - an OpenMusic library for converting OM objects into files readable by PiScore.
 Copyright (C) 2016  David Stephen Grant
 
+The actual library to be loaded into OpenMusic is contained within the subfolder "om2piscore".
+
 om2piscore is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
