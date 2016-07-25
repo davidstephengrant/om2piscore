@@ -11,9 +11,7 @@
 		       (pathname-directory *load-pathname*)
 		       (list "sources"))
 		      :name "om2piscore"
-		      :type "lisp")))XS
+		      :type "lisp")))
 
 (om::fill-library 
  '(("Conversion" nil nil (om2piscore) nil)))
-
-
