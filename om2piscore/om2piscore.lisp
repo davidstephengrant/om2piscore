@@ -14,4 +14,4 @@
 		      :type "lisp")))
 
 (om::fill-library 
- '(("Conversion" nil nil (om2piscore) nil)))
+ '(("Conversion" nil nil (convert-om2piscore) nil)))
