@@ -10,8 +10,15 @@
 		      (append
 		       (pathname-directory *load-pathname*)
 		       (list "sources"))
+		      :name "cl-who"
+		      :type "lisp")
+       (make-pathname :directory
+		      (append
+		       (pathname-directory *load-pathname*)
+		       (list "sources"))
 		      :name "om2piscore"
-		      :type "lisp")))
+		      :type "lisp")
+       ))
 
 (om::fill-library 
  '(("Conversion" nil nil (convert-om2piscore) nil)))
